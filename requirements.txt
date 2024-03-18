@@ -1,0 +1,8 @@
+gradio==4.21.0
+autoawq ==0.2.3
+transformers==4.37.2
+trafilatura==1.7.0
+langchain==0.1.11
+langchain-community==0.0.27
+torch==2.2.1
+load-dotenv==0.1.0
