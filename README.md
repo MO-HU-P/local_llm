@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ## RAG 機能
 
--	`rag.py` というスクリプトでは、app.py に RAG 機能を追加しました。LangChain の RetrievalQA を利用して、指定された URL から Web 検索して、テキストを抽出し、rag.py ファイルのあるディレクトリ内に textfile.txt ファイルを作成します。なお、スクリプトを実行する前に、コード内の"https:############"に参照するサイトのURLを入力してください。
+-	`rag.py` というスクリプトでは、app.py に LangChain の RetrievalQA を利用してRAG 機能を追加しました。指定された URL から Web 検索して、テキストを抽出し、rag.py ファイルのあるディレクトリ内に textfile.txt ファイルを作成します。なお、スクリプトを実行する前に、コード内の"https:############"に参照するサイトのURLを入力してください。
 
 -	Hugging Face から [multilingual-e5-small](https://huggingface.co/intfloat/multilingual-e5-small)という embedding (ベクトル化) 用のモデルをダウンロードするように設定しています。GPU への負荷を抑える意図で軽量なモデルを初期設定していますが、様々なモデルが公開されているので、必要に応じて変更してください。
 
